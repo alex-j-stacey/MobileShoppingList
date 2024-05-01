@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingList.Views.LoginPage" Padding="20,20,20,20">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="15" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Login Info" FontSize="Title" FontAttributes="Bold" />
+            <Entry x:Name="txtUser" Grid.Row="2" Grid.Column="1" Placeholder="Enter Username"/>
+            <Entry x:Name="txtPass" Grid.Row="4" Grid.Column="1" Placeholder="Enter Password" IsPassword="True" />
+            <Button Grid.Row="6" Grid.Column="1" FontSize="Large" Text="Login" Clicked="Login_Clicked" />
+            <Button Grid.Row="8" Grid.Column="1" FontSize="Large" BackgroundColor="#DA9C00" TextColor="White" Text="Create Account" Clicked="Create_Clicked" />
+            
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

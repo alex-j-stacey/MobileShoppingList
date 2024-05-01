@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingList.Views.NewAccountPage" Padding="20,20,20,20" >
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="15" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Account Info" FontSize="Title" FontAttributes="Bold" />
+            <Entry x:Name="txtUser" Grid.Row="2" Grid.Column="1" Placeholder="Choose a Username"/>
+            <Entry x:Name="txtPass" Grid.Row="4" Grid.Column="1" Placeholder="Choose a Password" IsPassword="True" />
+            <Entry x:Name="txtPass2" Grid.Row="6" Grid.Column="1" Placeholder="Re-enter Password" IsPassword="True" />
+            <Entry x:Name="txtEmail" Grid.Row="8" Grid.Column="1" Placeholder="Enter Email Address" />
+            <Button Grid.Row="10" Grid.Column="1" FontSize="Large" Text="Create Account" BackgroundColor="#2363FF" TextColor="White" Clicked="CreateUser_Clicked"/>
+            
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
