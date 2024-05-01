@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{C34995A2-84E9-4161-A3A6-1D8BAAA49830}|Default">
+  <MonoDevelop.Ide.ItemProperties.ShoppingList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5960E371-D1D4-4466-98E1-2A231AA12CB2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShoppingList/Models/UserData.cs">
+    <Files>
+      <File FileName="ShoppingList/Views/ListPage.xaml" Line="35" Column="1" />
+      <File FileName="ShoppingList/Views/ListPage.xaml.cs" Line="92" Column="10" />
+      <File FileName="ShoppingList/Models/UserData.cs" Line="23" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShoppingList" expanded="True">
+            <Node name="ShoppingList" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="UserData.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="ListPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ShoppingList.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ShoppingList.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
